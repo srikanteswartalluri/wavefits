@@ -6,6 +6,7 @@ public class NewHelloWorld {
         System.setProperty("webdriver.chrome.driver", "/Users/stalluri/Downloads/chromedriver");
         ChromeDriver cd = new ChromeDriver();
         cd.get("https://google.com");
+        System.out.println(cd.getTitle());
 
     }
 }
