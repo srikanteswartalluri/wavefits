@@ -7,6 +7,7 @@ public class NewHelloWorld {
         ChromeDriver cd = new ChromeDriver();
         cd.get("https://google.com");
         System.out.println(cd.getTitle());
+        System.out.println("Hi I am printing after the title");
 
     }
 }
